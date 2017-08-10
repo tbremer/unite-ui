@@ -1,0 +1,25 @@
+{
+  "name": "unite-ui",
+  "theme": "ui",
+  "version": "0.0.0",
+  "description": "Unite UI responds to your syntax for a more unified feel.",
+  "keywords": [
+    "unified",
+    "adaptive",
+    "ui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbremer/united-ui.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/tbremer/united-ui/issues"
+  },
+  "homepage": "https://github.com/tbremer/united-ui#readme",
+  "author": "Tom Bremer <tom@tbremer.com>"
+}
