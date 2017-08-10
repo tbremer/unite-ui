@@ -21,7 +21,7 @@ _font in the screenshots is: `Monaco`_
 _syntax featured are in the screenshots are: [ocean-dark-syntax](https://atom.io/themes/ocean-dark-syntax) & [ocean-light-syntax](https://atom.io/themes/ocean-light-syntax)_
 
 ### Light
-![ocean-dark](https://raw.githubusercontent.com/tbremer/unite-ui/master/screenshots/ocean-dark.png)
+![ocean-dark](https://raw.githubusercontent.com/tbremer/unite-ui/master/screenshots/ocean-light.png)
 
 ### Dark
 ![ocean-light](https://raw.githubusercontent.com/tbremer/unite-ui/master/screenshots/ocean-dark.png)
