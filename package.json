@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tbremer/united-ui.git"
+    "url": "git+https://github.com/tbremer/unite-ui.git"
   },
   "license": "MIT",
   "engines": {
@@ -18,8 +18,8 @@
   },
   "dependencies": {},
   "bugs": {
-    "url": "https://github.com/tbremer/united-ui/issues"
+    "url": "https://github.com/tbremer/unite-ui/issues"
   },
-  "homepage": "https://github.com/tbremer/united-ui#readme",
+  "homepage": "https://github.com/tbremer/unite-ui#readme",
   "author": "Tom Bremer <tom@tbremer.com>"
 }
