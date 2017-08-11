@@ -1,7 +1,7 @@
 {
   "name": "unite-ui",
   "theme": "ui",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Unite UI responds to your syntax for a more unified feel.",
   "main": "./lib/unite-ui",
   "keywords": [
@@ -29,7 +29,10 @@
       "order": 1,
       "description": "Change tab close buttons to left or right",
       "type": "string",
-      "enum": [ "left", "right" ],
+      "enum": [
+        "left",
+        "right"
+      ],
       "default": "right"
     },
     "condensedTabs": {
@@ -50,7 +53,10 @@
       "title": "Change UI Font Stack",
       "order": 1,
       "type": "string",
-      "enum": [ "monospace", "system" ],
+      "enum": [
+        "monospace",
+        "system"
+      ],
       "default": "monospace"
     }
   }
