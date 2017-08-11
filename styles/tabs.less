@@ -109,12 +109,17 @@
     color: @text-color-warning;
   }
 
+  .tab .close-icon,
+  .tab.modified:before {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
   .tab.modified:before {
     content: '';
     width: 6px;
     height: 6px;
-    top: 14px;
-    left: 10px;
+    left: 24px;
     border-radius: 100%;
     position: absolute;
     display: inline-block;
@@ -127,7 +132,6 @@
   }
 
   .tab .close-icon {
-    top: 9px;
     height: 16px;
     width: 16px;
     right: 4px;

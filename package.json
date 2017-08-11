@@ -3,6 +3,7 @@
   "theme": "ui",
   "version": "1.0.1",
   "description": "Unite UI responds to your syntax for a more unified feel.",
+  "main": "./lib/unite-ui",
   "keywords": [
     "unified",
     "adaptive",
@@ -21,5 +22,36 @@
     "url": "https://github.com/tbremer/unite-ui/issues"
   },
   "homepage": "https://github.com/tbremer/unite-ui#readme",
-  "author": "Tom Bremer <tom@tbremer.com>"
+  "author": "Tom Bremer <tom@tbremer.com>",
+  "configSchema": {
+    "closeButtonPosition": {
+      "title": "Close Button Location",
+      "order": 1,
+      "description": "Change tab close buttons to left or right",
+      "type": "string",
+      "enum": [ "left", "right" ],
+      "default": "right"
+    },
+    "condensedTabs": {
+      "title": "Condense Tabs",
+      "order": 2,
+      "description": "Enable a smaller font and less padding on tabs",
+      "type": "boolean",
+      "default": false
+    },
+    "condensedTreeView": {
+      "title": "Condense Tree View",
+      "order": 3,
+      "description": "Enable a smaller font and less padding on the tree",
+      "type": "boolean",
+      "default": false
+    },
+    "fontStack": {
+      "title": "Change UI Font Stack",
+      "order": 1,
+      "type": "string",
+      "enum": [ "monospace", "system" ],
+      "default": "monospace"
+    }
+  }
 }

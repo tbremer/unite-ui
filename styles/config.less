@@ -1,0 +1,46 @@
+.unite-ui-close-btn-left .tab-bar .tab .close-icon {
+  right: auto;
+  left: 4px;
+}
+
+.unite-ui-condense-tabs .tab-bar {
+  height: 24px;
+
+  .tab {
+    position: relative;
+    height: 24px;
+    font-size: 12px;
+    line-height: 24px;
+    padding: 0 10px!important;
+
+    .icon:before {
+      font-size: 10px !important;
+    }
+
+    .close-icon {
+      background: @tab-background-color;
+    }
+  }
+}
+
+.unite-ui-condense-tree .tree-view {
+  font-size: 12px;
+
+  .list-group li:not(.list-nested-item),
+  .list-tree li:not(.list-nested-item),
+  .list-group li.list-nested-item > .list-item,
+  .list-tree li.list-nested-item > .list-item {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .tree-view .list-tree .list-item.file.entry {
+    margin-left: 5px;
+  }
+
+  .list-tree.has-collapsable-children .list-nested-item > .list-item::before {
+    margin-left: 0;
+  }
+
+  .icon:before { font-size: 12px !important; }
+}
