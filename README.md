@@ -46,7 +46,11 @@ _syntax featured are in the screenshots are: [ocean-dark-syntax](https://atom.io
 ### Dark
 ![ocean-light](https://raw.githubusercontent.com/tbremer/unite-ui/master/screenshots/ocean-dark.png)
 
-# Font Stack
+# Font Stacks
 ```less
-@font-family: "Operator Mono for Powerline", "Operator Mono", "Monaco", "Consolas", "Inconsolata", "Droid Sans Mono", "Deja Vu Sans Mono", monospace;
+/* monospace */
+"Operator Mono for Powerline", "Operator Mono", "Monaco", "Consolas", "Inconsolata", "Droid Sans Mono", "Deja Vu Sans Mono", monospace;
+
+/* system */
+-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 ```
