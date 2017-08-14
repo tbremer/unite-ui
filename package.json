@@ -26,7 +26,7 @@
   "configSchema": {
     "closeButtonPosition": {
       "title": "Close Button Location",
-      "order": 1,
+      "order": 0,
       "description": "Change tab close buttons to left or right",
       "type": "string",
       "enum": [
@@ -37,27 +37,37 @@
     },
     "condensedTabs": {
       "title": "Condense Tabs",
-      "order": 2,
+      "order": 1,
       "description": "Enable a smaller font and less padding on tabs",
       "type": "boolean",
       "default": false
     },
     "condensedTreeView": {
       "title": "Condense Tree View",
-      "order": 3,
+      "order": 2,
       "description": "Enable a smaller font and less padding on the tree",
       "type": "boolean",
       "default": false
     },
     "fontStack": {
       "title": "Change UI Font Stack",
-      "order": 1,
+      "order": 3,
       "type": "string",
       "enum": [
         "monospace",
         "system"
       ],
       "default": "monospace"
+    },
+    "blockCursor": {
+      "title": "Standard or Block Cursor",
+      "order": 4,
+      "type": "string",
+      "enum": [
+        "block",
+        "standard"
+      ],
+      "default": "block"
     }
   }
 }
