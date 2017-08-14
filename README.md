@@ -12,7 +12,7 @@ Go to settings within Atom, select Install and search for `unite` under themes.
 
 Or install directly from the console:
 
-`apm install united-ui`
+`apm install unite-ui`
 
 # Settings
 - `closeButtonPosition`
