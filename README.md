@@ -33,6 +33,11 @@ Or install directly from the console:
   - type: `enum`
   - default: `monospace`
     - options: `monospace`, `system`
+- `blockCursor`
+  - description: _Switch cursor from Block to Line._
+  - type: `enum`
+  - default: `block`
+    - options: `block`, `standard`
 
 # Screenshots
 
