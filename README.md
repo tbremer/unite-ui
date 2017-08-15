@@ -15,11 +15,6 @@ Or install directly from the console:
 `apm install unite-ui`
 
 # Settings
-- `closeButtonPosition`
-  - description: _Change tab close buttons to left or right._
-  - default: `right`
-  - type: `enum`
-    - options: `right`, `left`
 - `condensedTabs`
   - description: _Enable a smaller font and less padding on tabs._
   - type: `boolean`
@@ -38,6 +33,11 @@ Or install directly from the console:
   - type: `enum`
   - default: `block`
     - options: `block`, `standard`
+  - `closeButtonPosition`
+    - description: _Change tab close buttons to left or right._
+    - default: `right`
+    - type: `enum`
+      - options: `right`, `left`
 
 # Screenshots
 
